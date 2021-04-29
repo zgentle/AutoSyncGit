@@ -1,4 +1,4 @@
-name: jd_docker-sync
+name: lxk0301-jd_docker-sync
 on:
   schedule:
     - cron: '1 */12 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-jd_docker-Scripts
+    types: sync-lxk0301-jd_docker-Scripts
 jobs:
   repo-sync:
     env:
@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync jd_docker-Scripts
+      - name: sync lxk0301-jd_docker-Scripts
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
