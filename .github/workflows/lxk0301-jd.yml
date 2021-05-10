@@ -1,4 +1,4 @@
-name: lxk0301-jd-sync
+name: lxk0301-jddocker-sync
 on:
   schedule:
     - cron: '1 */12 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-lxk0301-jd-Private-Script
+    types: sync-lxk0301-jddocker-Private-Script
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync lxk0301-jd-Private-Script
+      - name: sync lxk0301-jddocker-Private-Script
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/wisz2021/jd_docker"
-          source_branch: "master"
-          destination_branch: "lxk0301-jd"
+          source_branch: "main"
+          destination_branch: "lxk0301-jddocker"
           github_token: ${{ secrets.PAT }}
