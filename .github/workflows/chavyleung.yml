@@ -1,4 +1,4 @@
-name: ZhiYi-sync
+name: chavyleung-sync
 on:
   schedule:
     - cron: '1 */24 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-ZhiYi-Private-Script
+    types: sync-chavyleung-scripts
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync ZhiYi-Private-Script
+      - name: sync chavyleung-scripts
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/ZhiYi-N/Private-Script.git"
+          source_repo: "https://github.com/chavyleung/scripts.git"
           source_branch: "master"
-          destination_branch: "ZhiYi-N"
+          destination_branch: "chavyleung"
           github_token: ${{ secrets.PAT }}
