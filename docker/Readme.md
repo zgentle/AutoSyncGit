@@ -81,7 +81,7 @@ pip3 install --upgrade pip
 pip install docker-compose
 ```
 
-win10用户下载安装[docker desktop](https://www.docker.com/products/docker-desktop)
+### win10用户下载安装[docker desktop](https://www.docker.com/products/docker-desktop)
 
 通过`docker-compose version`查看`docker-compose`版本，确认是否安装成功。
 
@@ -243,6 +243,8 @@ jd_scripts
    `docker exec -it jd_scripts /bin/sh` 仅进入容器命令
    
    `rm -rf  logs/*.log` 删除logs文件夹里面所有的日志文件（linux）
+
+   `docker exec -it jd_scripts /bin/sh -c ' ls jd_*.js | grep -v jd_crazy_joy_coin.js |xargs -i node {}'` 执行所有定时任务
 
 - 如果是群晖用户，在docker注册表搜`jd_scripts`，双击下载映像。
 不需要`docker-compose.yml`，只需建个logs/目录，调整`jd_scripts.syno.json`里面对应的配置值，然后导入json配置新建容器。
