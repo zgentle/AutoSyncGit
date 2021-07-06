@@ -5,6 +5,15 @@
   "date": "2021-07-06 8:40:00",
   "list": [
    {
+      "name": "京东汪汪乐园柠檬版",
+      "type": "cron",
+      "time": "0 */1 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/panghu999/panghu/master/jd_joy-park.js"
+      }
+    },	
+	  {
       "name": "京东汪汪乐园开工位一次性脚本",
       "type": "cron",
       "time": "0 * * * *",
