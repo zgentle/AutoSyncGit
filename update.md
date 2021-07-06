@@ -1,3 +1,46 @@
+
+### 公众号少年歌行pro：7月1日 9：50，脚本进行了如下变动：
+
+https://github.com/Youthsongs/QuanX
+
+
+【新增】
+
+1、新增了 `奇趣史蒂夫` 大佬 的 `京东京享值PK史蒂夫版` 脚本
+
+2、新增了 `柠檬` 大佬 的 `京东京享值PK柠檬版` 脚本 
+
+3、新增了 `柠檬` 大佬 的 `京东柠檬特物ZX偶来呀` 脚本
+
+
+### 仓库订阅地址：
+ 
+【圈x订阅地址】
+
+https://ghproxy.com/https://raw.githubusercontent.com/Youthsongs/QuanX/master/task/AllinOne.json
+
+【v2p订阅地址】
+
+https://ghproxy.com/https://raw.githubusercontent.com/Youthsongs/QuanX/master/V2pTaskSub/sngxprov2p.json
+
+【青龙拉取胖虎仓库教程地址（TG链接）】
+
+https://t.me/shao66/1796
+
+【青龙拉取`京东京享值PK史蒂夫版` 脚本单文件命令】
+
+ql raw https://ghproxy.com/https://raw.githubusercontent.com/qqsdff/script/main/jd/jxzpk.js
+
+
+#公众号：少年歌行pro
+
+#脚本更新
+
+https://t.me/shao66
+
+---------------------------
+
+
 ### 公众号少年歌行pro：7月1日 11：50，脚本进行了如下变动：
 
 https://github.com/Youthsongs/QuanX
