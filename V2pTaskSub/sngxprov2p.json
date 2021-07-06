@@ -5,6 +5,15 @@
   "date": "2021-07-06 8:40:00",
   "list": [
    {
+      "name": "京东众筹许愿池柠檬版",
+      "type": "cron",
+      "time": "0 8,12 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/panghu999/panghu/master/jd_wish.js"
+      }
+    },	
+	  {
       "name": "京东汪汪乐园柠檬版",
       "type": "cron",
       "time": "0 */1 * * *",
