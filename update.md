@@ -1,4 +1,38 @@
 ### 公众号少年歌行pro：7月1日 11：50，脚本进行了如下变动：
+## 公众号少年歌行pro：7月1日 11：50，脚本进行了如下变动：
+
+https://github.com/Youthsongs/QuanX
+
+
+【新增】
+
+1、新增了 `柠檬` 大佬 的 `京东众筹许愿池柠檬版` 脚本
+
+
+### 仓库订阅地址：
+ 
+【圈x订阅地址】
+
+https://ghproxy.com/https://raw.githubusercontent.com/Youthsongs/QuanX/master/task/AllinOne.json
+
+【v2p订阅地址】
+
+https://ghproxy.com/https://raw.githubusercontent.com/Youthsongs/QuanX/master/V2pTaskSub/sngxprov2p.json
+
+【青龙拉取柠檬（胖虎）仓库教程地址（TG链接）】
+
+https://t.me/shao66/1796
+
+
+#公众号：少年歌行pro
+
+#脚本更新
+
+https://t.me/shao66
+
+---------------------------
+
+## 公众号少年歌行pro：7月1日 11：50，脚本进行了如下变动：
 
 https://github.com/Youthsongs/QuanX
 
